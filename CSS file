@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Styled Webpage</title>
+  <!-- Link external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 id="main-heading">Welcome to Our Styled Page</h1>
+
+  <h2 class="section-heading">Roman Numeral List</h2>
+  <ol type="I" class="fancy-list">
+    <li>Step One</li>
+    <li>Step Two</li>
+    <li>Step Three</li>
+  </ol>
+
+  <h2 class="section-heading">Styled Image</h2>
+  <img src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg" alt="Nature Image from Pexels" class="styled-image">
+
+  <h2 class="section-heading">Sample Table</h2>
+  <table class="contact-table">
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Mobile</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td>Jane Doe</td>
+      <td>123 Street</td>
+      <td>555-1234</td>
+      <td>jane@example.com</td>
+    </tr>
+    <!-- Add more rows if needed -->
+  </table>
+
+</body>
+</html>
